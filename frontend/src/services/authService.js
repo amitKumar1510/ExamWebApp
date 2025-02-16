@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // API base URL
-const API_URL = "http://localhost:5000/api/auth/";
+const API_URL = "http://exam.pingayush.in:5000/api/auth/";
 
 // STUDENT SIGNUP FUNCTION
 const signup = async (email, password, name) => {
